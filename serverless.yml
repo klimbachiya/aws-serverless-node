@@ -1,10 +1,10 @@
-service: aws--serverless-node
+service: aws-serverless-node-lambda
 
 frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs20.x
+  runtime: nodejs16.x
 
 functions:
   hello:
