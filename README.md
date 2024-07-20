@@ -9,7 +9,7 @@ This repository helps how to deploy a simple NodeJS function to AWS Lambda using
 In order to deploy the example, you need to run the following command:
 
 ```
-npm install -g serverless
+npm install -g serverless@3.10
 serverless deploy
 ```
 
